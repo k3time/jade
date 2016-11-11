@@ -1,0 +1,11 @@
+.panel.panel-default.shortPanel
+	h1 Sign In
+	form(action="/loginSuccess", method="GET")
+		p.input-group
+			span.input-group-addon
+				span.glyphicon.glyphicon-user
+			input.form-control(type="text", name="nm", placeholder="User Name", required)
+		p.help-block.text-center
+			small Please login to use the Transport Hub
+		p.text-center
+			button.btn.btn-success(type="submit") Sign in

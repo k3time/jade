@@ -1,0 +1,10 @@
+.panel.panel-default.shortPanel
+    h5.text-center.m-b-0 Here you are in the city of
+    h3.text-center.m-t-10 #{cityName}
+    p.help-block.text-left
+        .text-center.m-b-10 #{tagline}
+        img.img-responsive(src='public/images/#{cityName}.jpg', alt='city image', width='304', height='236')
+    h4 #{cityName} is famous for
+    ul.list-group.m-b-10
+        for famous in FAMOUSFOR
+            li.list-group-item=famous

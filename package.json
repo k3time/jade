@@ -1,0 +1,29 @@
+{
+  "name": "handlebars-transport",
+  "version": "1.0.0",
+  "description": "Transport Hub application using handlebars",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "body-parser",
+    "routes",
+    "express-session",
+    "template-engine",
+    "jade"
+  ],
+  "author": "kuldeep kaushik",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "chalk": "^1.1.1",
+    "express": "^4.14.0",
+    "express-jade": "0.0.3",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.14.1"
+  }
+}

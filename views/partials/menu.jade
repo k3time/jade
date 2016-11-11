@@ -1,0 +1,18 @@
+.navbar.navbar-inverse
+    .container
+        .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand(href='#') Hi, #{welcomeMessage}
+        .navbar-collapse.collapse
+            ul.nav.navbar-nav.pull-right
+                if LOGGEDIN
+                    li
+                        a(href='/loginSuccess') Hub
+                    li
+                        a(href='/logout') Logout
+                else
+                    li
+                        a(href='/login') Login

@@ -1,0 +1,17 @@
+.panel.panel-default.shortPanel
+    h5.text-center.m-b-0 Welcome to the
+    h3.text-center.m-t-10 Transport Hub
+    p.text-center.small
+        medium Depending on your interest, I'll take you to a city
+    form(action="/city", method="post")
+        p.input-group
+            span.input-group-addon
+                span.glyphicon.glyphicon-user
+            select.form-control(name="interest", required)
+                option(value="finance") Business
+                option(value='fashion') Fashion
+                option(value='history') History
+        p.text-center
+            button.btn.btn-success.m-r-5(type="submit") Submit
+            a.btn.btn-success(href="/cancel") Cancel
+
