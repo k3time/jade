@@ -15,7 +15,7 @@
     "template-engine",
     "jade"
   ],
-  "author": "kuldeep kaushik",
+  "author": "K3TIME",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",
